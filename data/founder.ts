@@ -36,7 +36,7 @@ export const founderProfile: FounderProfile = {
   mission:
     "Her mission is to improve health outcomes and reduce disparities by delivering culturally relevant, evidence-based nutrition systems.",
   image: {
-    src: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=900&q=80",
+    src: "/founder-tafadzwa.svg",
     alt: "Tafadzwa A. Zhawari, founder of Charis Nutrition"
   }
 };
