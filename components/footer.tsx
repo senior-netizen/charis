@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { navLinks, siteConfig } from "@/data/site";
+import { Logo } from "@/components/logo";
 
 export function Footer() {
   return (
@@ -7,7 +8,7 @@ export function Footer() {
       <div className="section py-12 md:py-14">
         <div className="grid gap-10 md:grid-cols-[1.3fr_1fr_1fr]">
           <div>
-            <p className="text-lg font-semibold text-brand">Charis Nutrition</p>
+            <Logo />
             <p className="mt-3 max-w-sm text-sm leading-relaxed text-slate-600">{siteConfig.description}</p>
           </div>
           <div>
