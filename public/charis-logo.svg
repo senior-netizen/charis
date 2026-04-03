@@ -1,0 +1,12 @@
+<svg width="420" height="140" viewBox="0 0 420 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="420" height="140" fill="white"/>
+  <g transform="translate(8,8)">
+    <path d="M124 22C124 12.0589 132.059 4 142 4C151.941 4 160 12.0589 160 22C160 28 157 33 153 36C150 38 146 39 142 39C132.059 39 124 31.9411 124 22Z" fill="#10A64A"/>
+    <path d="M116 20C118 18 121 17 124 17H148C154 17 159 22 159 28C159 34 154 39 148 39H126C117 39 110 46 110 55C110 64 117 71 126 71H149C156 71 162 77 162 84C162 91 156 97 149 97H126C102 97 83 78 83 55C83 32 102 20 116 20Z" fill="#F29A1A"/>
+    <circle cx="133" cy="57" r="22" fill="#FFD22E"/>
+    <circle cx="125" cy="50" r="6" fill="white" fill-opacity="0.9"/>
+    <rect x="116" y="8" width="5" height="12" rx="2.5" transform="rotate(-35 116 8)" fill="#5D3A1D"/>
+  </g>
+  <text x="176" y="76" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="500" fill="#10A64A">Charis</text>
+  <text x="177" y="108" font-family="Inter, Arial, sans-serif" font-size="20" letter-spacing="8" font-weight="500" fill="#4B2E1A">NUTRITION</text>
+</svg>
