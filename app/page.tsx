@@ -6,6 +6,7 @@ import { ServiceCard } from "@/components/service-card";
 import { TestimonialCard } from "@/components/testimonial-card";
 import { services } from "@/content/services";
 import { testimonials } from "@/content/testimonials";
+import { founderProfile } from "@/data/founder";
 
 export default function HomePage() {
   return (
@@ -82,19 +83,18 @@ export default function HomePage() {
       <Section title="Meet the founder">
         <div className="grid items-center gap-8 md:grid-cols-[320px_1fr]">
           <Image
-            src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=900&q=80"
-            alt="Founder of Charis Nutrition"
+            src={founderProfile.image.src}
+            alt={founderProfile.image.alt}
             width={720}
             height={860}
             loading="lazy"
             className="h-[360px] w-full rounded-3xl object-cover"
           />
           <div>
-            <h3 className="text-2xl font-semibold">Dr. Eliana Brooks, RD</h3>
-            <p className="mt-4 text-base leading-relaxed text-slate-600">
-              Eliana is a registered dietitian with 12+ years of experience in clinical nutrition, maternal health, and
-              performance coaching. Her practice combines scientific rigor with practical behavior design.
-            </p>
+            <p className="text-sm font-medium uppercase tracking-[0.12em] text-brand">{founderProfile.title}</p>
+            <h3 className="mt-2 text-2xl font-semibold">{founderProfile.name}</h3>
+            <p className="mt-4 text-base leading-relaxed text-slate-600">{founderProfile.summary}</p>
+            <p className="mt-4 text-sm leading-relaxed text-slate-600">{founderProfile.mediaExperience}</p>
           </div>
         </div>
       </Section>
